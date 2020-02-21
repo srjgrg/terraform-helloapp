@@ -3,6 +3,7 @@ terraform {
     bucket = "terraform-suraj"
     key    = "terraform/dev/helloapp"
     region = "us-east-1"
+    profile = "suraj"
 
   }
 }
