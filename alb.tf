@@ -1,5 +1,5 @@
 resource "aws_lb" "default" {
-  name               = "terraform-apringboot-helloapp"
+  name               = "terraform-springboot-helloapp"
   internal           = false
   load_balancer_type = "application"
   security_groups    = ["${aws_security_group.default_lb.id}"]
